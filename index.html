@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Project-N1</title>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <section class="fullscreen">
+        <div class="fullscreen__body">
+            <header class="header">
+                <div class="header__inner">
+                    <div class="header__logo">
+                        <img src="icons/Logo.svg" alt="logo">
+                    </div>
+                    <nav class="header__nav">
+                        <a href="#" class="nav__link">Это меню</a>
+                        <a href="#" class="nav__link">Должно</a>
+                        <a href="#" class="nav__link">Быть</a>
+                        <a href="#" class="nav__link">Закрепленным</a>
+                        <a href="#" class="nav__link">При скролле</a>
+                        <a href="#" class="nav__link nav__link--modal" id="modal">Модалка</a>
+                    </nav>
+                    
+                    <div class="pop_up">
+                        <div class="pop_up_container">
+                            <div class="pop_up_body">
+                                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0">
+                                </iframe>
+                                <div class="pop_up_close">&#10006</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </header>
+            <div class="intro">
+                <div class="intro__left">
+                    <img src="icons/hi.svg" alt="hi">
+                    <h1 class="intro__title">Привет!</h1>
+                    <p class="intro__description">
+                        Группа компаний Freematiq и MITRA ищет себе клевого верстальщика. На постоянную работу в офисе или периодическую  работу по удаленке. Хотим предложить тебе вместо скучных тестовых заданий – сверстать эту страницу.
+                    </p>
+                    <span class="list-title">В своей работе мы используем:</span>
+                    <ul>
+                        <li>HTML5, CSS3</li>
+                        <li>Bootstrap 4</li>
+                        <li>Jade, Pug</li>
+                        <li>Less, SCSS</li>
+                        <li>Иконочные шрифты</li>
+                        <li>SVG иллюстрации</li>
+                    </ul>
+                    <span class="list-description">Не ограничиваем этими технологиями, верстай как удобно.</span>
+                </div>
+                <div class="intro__right">
+                    <img src="images/intro.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="task">
+        <p class="task__description">Это твое первое задание в нашей компании. Если оно покажется тебе интересным и его <br> реализация нам понравится – добро пожаловать в команду.</p>
+        <div class="task__target">
+            <div class="task__target--left">
+                <img src="icons/fullscreen.svg" alt="">
+                <span>Первый блок на <br> всю высоту экрана</span>
+            </div>
+            <div class="task__target--right">
+                <img src="icons/adaptive.svg" alt="">
+                <span>Отзывчивая <br> верстка</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="process">
+        <div class="process__left">
+            <img src="images/figma.png" alt="figma">
+        </div>
+        <div class="process__right">
+            <img src="icons/rocket.svg" alt="">
+            <h3>Как ускорить процесс</h3>
+            <p>Чтобы иметь доступ ко всем функциям и возможностям Figma, которые облегчат и ускорят процесс верстки, зарегистрируйся и залогинься в системе.</p>
+            <a href="#">Зарегистрироваться</a>
+        </div>
+    </div>
+
+    <div class="grade">
+        <div class="grade__inner">
+            <div class="grade__left">
+                <img src="icons/stars.svg" alt="">
+                <h3>Оцени себя</h3>
+                <p>Попробуй максимально объективно и честно оценить свои знания верстки по следующей шкале. И да, её тоже нужно сверстать.</p>
+            </div>
+            <div class="grade__right">
+                <div class="circle-left">
+                    <div class="circle-info">
+                        <span class="circle-count">1</span>
+                        <span class="circle-name">Год</span>
+                    </div>
+                </div>
+                <div class="circle-right">
+                    <div class="circle-info">
+                        <span class="circle-count">12</span>
+                        <span class="circle-name">Проектов</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grade__level">
+            <span style="width: 22%"></span>
+            <div class="grade__level--name">
+                <p>Intern</p>
+                <p>Junior</p>
+                <p>Middle</p>
+                <p>Senior</p>
+                <p>Lead</p>
+            </div>
+        </div>
+
+    </div>
+
+</div>    
+
+<script src="app.js"></script>
+</body>
+</html>
